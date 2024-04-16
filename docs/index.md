@@ -3,16 +3,18 @@
 layout: home
 
 hero:
-  name: "Jon Dev"
+  name: "Ian Dev"
   text: "Portfolio"
-  tagline: My great project tagline
+  tagline: Who I am and what I do
+  image:
+    src: /assets/home.png
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Me
+      link: /me
+    - theme: brand
+      text: Gallery
+      link: /gallery
 
 features:
   - title: Feature A

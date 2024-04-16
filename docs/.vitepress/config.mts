@@ -3,27 +3,36 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/vitepress-portfolio/',
-  title: "Jon Dev",
+  title: "Ian Dev",
   description: "Portfolio",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Me', link: '/me' },
+      { text: 'Gallery', link: '/gallery' },
+      { text: 'About', link: '/about' },
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Who I am',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'About me', link: '/me' },
+          { text: 'My influences', link: '/influences' },
         ]
-      }
+      },
+      {
+        text: 'What I do',
+        items: [
+          { text: 'About my work', link: '/my-work' },
+          { text: 'Gallery', link: '/gallery' },
+        ]
+      },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/akobashikawa/vitepress-portfolio' }
     ]
   }
 })
