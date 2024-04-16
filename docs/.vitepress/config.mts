@@ -20,12 +20,14 @@ export default defineConfig({
         items: [
           { text: 'About me', link: '/me' },
           { text: 'My influences', link: '/influences' },
+          { text: 'My CV', link: '/assets/cvsamples.pdf' },
         ]
       },
       {
         text: 'What I do',
         items: [
           { text: 'About my work', link: '/my-work' },
+          { text: 'My links', link: '/links' },
           { text: 'Gallery', link: '/gallery' },
         ]
       },
