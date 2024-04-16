@@ -20,7 +20,7 @@ export default defineConfig({
         items: [
           { text: 'About me', link: '/me' },
           { text: 'My influences', link: '/influences' },
-          { text: 'My CV', link: '/assets/cvsamples.pdf' },
+          { text: 'My CV', link: '/vitepress-portfolio/assets/cvsamples.pdf' },
         ]
       },
       {
