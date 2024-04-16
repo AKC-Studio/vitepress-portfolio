@@ -5,6 +5,7 @@ export default defineConfig({
   base: '/vitepress-portfolio/',
   title: "Ian Dev",
   description: "Portfolio",
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
