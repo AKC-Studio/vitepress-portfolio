@@ -7,7 +7,7 @@ hero:
   text: "Portfolio"
   tagline: Who I am and what I do
   image:
-    src: /assets/home.png
+    src: /assets/developer-centerpublic-api-svgrepo-com.svg
   actions:
     - theme: brand
       text: Me

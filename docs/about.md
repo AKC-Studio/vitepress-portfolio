@@ -1,8 +1,25 @@
+<script setup>
+import { VPTeamMembers } from 'vitepress/theme'
+
+const members = [
+  {
+    avatar: 'https://www.github.com/akobashikawa.png',
+    name: 'Antonio Kobashikawa',
+    title: 'Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/akobashikawa' },
+      { icon: 'twitter', link: 'https://twitter.com/rulokoba' }
+    ]
+  },
+]
+</script>
+
 # About this site
 
 ## Author
 
-- [Antonio Kobashikawa](https://akcstudio.com)
+<VPTeamMembers size="small" :members="members" />
+- [AKC Studio](https://akcstudio.com)
 
 ## Software
 
