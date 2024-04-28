@@ -18,10 +18,16 @@ hero:
 
 features:
   - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details:
+      <img src="./assets/vecteezy_man-coder-development-programming-computer_11634397.jpg">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details:
+      <img src="./assets/vecteezy_web-development-concept-with-programmer-and-ar_16962025.jpg">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details:
+      <img src="./assets/vecteezy_web-analysis-and-development-team_.jpg">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
