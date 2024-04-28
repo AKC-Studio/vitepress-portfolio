@@ -31,7 +31,7 @@ const members = [
 
 ## Attributions
 
-- <a href="https://www.vecteezy.com/free-vector/development">Development Vectors by Vecteezy</a>
+- [Development Vectors by Vecteezy](https://www.vecteezy.com/free-vector/development)
 
 - [Developer Centerpublic Api Vector SVG Icon - SVG Repo](https://www.svgrepo.com/svg/486263/developer-centerpublic-api)
 
