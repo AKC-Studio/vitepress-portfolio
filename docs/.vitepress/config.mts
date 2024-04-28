@@ -19,6 +19,7 @@ export default defineConfig({
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/assets/favicons/android-chrome-512x512.png',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Me', link: '/me' },
@@ -46,7 +47,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/akobashikawa/vitepress-portfolio' }
+      { icon: 'github', link: 'https://github.com/AKC-Studio/vitepress-portfolio' }
     ]
   }
 })
