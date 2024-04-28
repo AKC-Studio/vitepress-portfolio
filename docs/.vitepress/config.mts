@@ -33,21 +33,21 @@ export default defineConfig({
         items: [
           { text: 'About me', link: '/me' },
           { text: 'My influences', link: '/influences' },
-          { text: 'My CV', link: 'https://akobashikawa.github.io/vitepress-portfolio/assets/cvsamples.pdf', target: '_blank' },
+          { text: 'My CV', link: 'https://akcstudio.github.io/vitepress-portfolio/assets/cvsamples.pdf', target: '_blank' },
         ]
       },
       {
         text: 'What I do',
         items: [
           { text: 'About my work', link: '/my-work' },
-          { text: 'My links', link: '/links' },
           { text: 'Gallery', link: '/gallery' },
+          { text: 'My links', link: '/links' },
         ]
       },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/AKC-Studio/vitepress-portfolio' }
+      { icon: 'github', link: 'https://github.com/AKCStudio/vitepress-portfolio' }
     ]
   }
 })

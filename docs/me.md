@@ -1,11 +1,13 @@
 # About me
 
+![](/vitepress-portfolio/assets/vecteezy_man-coder-development-programming-computer_11634397.jpg)
 Nostrud pariatur exercitation magna sint sunt Lorem aliquip eu Lorem veniam in voluptate magna. Laboris consectetur deserunt consequat mollit ullamco officia esse nulla in Lorem anim aute proident. Voluptate sit ex nostrud do ea deserunt labore nisi laboris. Do Lorem culpa incididunt cillum id dolor labore. Id exercitation incididunt ullamco elit.
 
 ## Studies
 
 ### Acme Institute
 
+![](/vitepress-portfolio/assets/vecteezy_web-analysis-and-development-team_.jpg)
 Ea dolor esse ut nostrud officia enim aute magna duis. Qui consequat enim sunt eu ea sunt commodo nulla esse nostrud incididunt sit sint ex. Cillum aute elit sit aliqua do sit. Ut do dolore anim culpa minim cillum duis consequat eu qui. Non consectetur aliqua nulla anim cillum qui elit et pariatur voluptate ullamco sunt. Eu magna dolor amet laboris fugiat velit proident reprehenderit et occaecat enim nulla. Aliquip occaecat labore ex esse velit cillum.
 
 ## Areas of Interest
