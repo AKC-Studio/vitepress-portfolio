@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
+    "docs:buildsub": "cross-env VITE_TARGET=subdir vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
   "keywords": [
@@ -19,6 +20,8 @@
   "author": "Antonio Kobashikawa Carrasco",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^20.12.11",
+    "cross-env": "^7.0.3",
     "vitepress": "^1.1.0",
     "vue": "^3.4.21"
   }
