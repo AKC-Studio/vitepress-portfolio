@@ -19,15 +19,15 @@ hero:
 features:
   - title: Feature A
     details:
-      <img src="/vitepress-portfolio/assets/vecteezy_man-coder-development-programming-computer_11634397.jpg">
+      <img src="./assets/vecteezy_man-coder-development-programming-computer_11634397.jpg">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature B
     details:
-      <img src="/vitepress-portfolio/assets/vecteezy_web-development-concept-with-programmer-and-ar_16962025.jpg">
+      <img src="./assets/vecteezy_web-development-concept-with-programmer-and-ar_16962025.jpg">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
     details:
-      <img src="/vitepress-portfolio/assets/vecteezy_web-analysis-and-development-team_.jpg">
+      <img src="./assets/vecteezy_web-analysis-and-development-team_.jpg">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
