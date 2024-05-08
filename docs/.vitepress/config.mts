@@ -1,20 +1,23 @@
 import { defineConfig } from 'vitepress'
 
+const baseHref = (process.env.VITE_TARGET === 'subdir') ? '/vitepress-portfolio/' : ''
+const base = (process.env.VITE_TARGET === 'subdir') ? '/vitepress-portfolio/' : './'
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: (process.env.VITE_TARGET === 'subdir') ? '/vitepress-portfolio/' : '',
+  base: baseHref,
   title: "Ian Dev",
   description: "Portfolio",
   lastUpdated: true,
   head: [
-    ['link', { rel: "apple-touch-icon", sizes: "180x180", href: "/vitepress-portfolio/assets/favicons/apple-touch-icon.png"}],
-    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/vitepress-portfolio/assets/favicons/favicon-32x32.png"}],
-    ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/vitepress-portfolio/assets/favicons/favicon-16x16.png"}],
-    ['link', { rel: "manifest", href: "/vitepress-portfolio/assets/favicons/site.webmanifest"}],
-    ['link', { rel: "mask-icon", href: "/vitepress-portfolio/assets/favicons/safari-pinned-tab.svg", color: "#5bbad5"}],
-    ['link', { rel: "shortcut icon", href: "/vitepress-portfolio/assets/favicons/favicon.ico"}],
+    ['link', { rel: "apple-touch-icon", sizes: "180x180", href: `${base}/assets/favicons/apple-touch-icon.png`}],
+    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: `${base}/assets/favicons/favicon-32x32.png`}],
+    ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: `${base}/assets/favicons/favicon-16x16.png`}],
+    ['link', { rel: "manifest", href: `${base}/assets/favicons/site.webmanifest`}],
+    ['link', { rel: "mask-icon", href: `${base}/assets/favicons/safari-pinned-tab.svg`, color: "#5bbad5"}],
+    ['link', { rel: "shortcut icon", href: `${base}/assets/favicons/favicon.ico`}],
     ['meta', { name: "msapplication-TileColor", content: "#5bbad5"}],
-    ['meta', { name: "msapplication-config", content: "/vitepress-portfolio/assets/favicons/browserconfig.xml"}],
+    ['meta', { name: "msapplication-config", content: `${base}/assets/favicons/browserconfig.xml`}],
     ['meta', { name: "theme-color", content: "#ffffff"}],
   ],
   themeConfig: {
