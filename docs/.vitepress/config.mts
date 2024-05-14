@@ -51,6 +51,11 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/AKCStudio/vitepress-portfolio' }
-    ]
+    ],
+
+    editLink: {
+      pattern: `https://github.com/AKCStudio/vitepress-portfolio/edit/master/docs/:path`,
+      text: 'Edit on GitHub'
+    }
   }
 })
